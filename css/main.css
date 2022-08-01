@@ -55,3 +55,14 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.opinion {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.op {
+    margin: 0 auto;
+}
