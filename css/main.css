@@ -31,3 +31,14 @@ a {
 .search {
     margin-left: 500px;
 }
+
+.headline {
+    margin: 50px 50px;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
