@@ -56,11 +56,13 @@ a {
     flex-wrap: wrap;
 }
 
-.opinion {
+
+.opinions {
     margin: 50px 50px;
+}
+.opinion {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
 }
 
 .op {
