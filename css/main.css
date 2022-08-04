@@ -87,7 +87,7 @@ header {
     margin: 50px 100px;
 }
 
-.footer_links   {
+.footer__links   {
     display: flex;
     flex-direction: column;
     width: 200px;
