@@ -1,36 +1,39 @@
 /* This is your custom CSS file */
-body{
+body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #d8d4d4;
 }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 0 60px;
-    align-items: center;
-    width: 100%;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    justify-content: space-between;
-}
-
-li {
-    display: inline-flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
-a {
+li, a {
     text-decoration: none;
 }
 
-.search {
-    margin-left: 500px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 15%;
+}
+
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav__buttons a {
+    padding: 0 15px;
 }
 
 .headline {
@@ -56,10 +59,10 @@ a {
     flex-wrap: wrap;
 }
 
-
 .opinions {
     margin: 50px 50px;
 }
+
 .opinion {
     display: flex;
     flex-direction: row;
