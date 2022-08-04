@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
+    margin: 0 100px;
 }
 
 .logo {
@@ -37,7 +37,7 @@ header {
 }
 
 .headline {
-    margin: 50px 50px;
+    margin: 50px 100px;
 }
 
 
@@ -60,14 +60,37 @@ header {
 }
 
 .opinions {
-    margin: 50px 50px;
+    margin: 100px 100px;
 }
 
 .opinion {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .op {
     margin: 0 auto;
+}
+
+
+.card {
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.footer_links   {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    text-align: center;
 }
